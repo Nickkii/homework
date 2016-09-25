@@ -1,0 +1,45 @@
+* {
+    font-family: Tahoma;
+}
+A{
+    color:   #0074A2;
+}
+A:hover{
+    color: #003300;
+}
+p.bar{
+    background-color: red;
+}
+.bar B{
+    color: #FF3399;
+}
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+.underlined{
+    text-decoration: underline;
+}
+.container{
+    padding: 1px;
+    width:  1000px;
+    text-align: center;
+}
+.header .footer .navigation{
+    padding: 10px;
+    margin: 20px;
+}
+.content {
+    padding: 20px;
+}
+.header {
+    height: 50px;
+    text-align: right;
+    font-style: italic;
+}
+.footer {
+    height: 40px;
+    text-align: center;
+}

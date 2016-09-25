@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Заполните контактные данные</h1>
+<form>
+<table>
+    <tr>
+        <td><label for="name">Ваше имя</label> </td>
+        <td><input type="text" name="name" id="name" placeholder="Введите ваше имя"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Ваш емейл</label></td>
+        <td><input type="email" name="email" id="email" placeholder="Введите ваш емейл"></td>
+    </tr>
+    <tr>
+        <td><label for="phone">Ваш телефон</label></td>
+        <td><input type="tel" name="tel" id="tel" placeholder="Введите ваш номер телефона"></td>
+    </tr>
+    <tr>
+        <td><label for="messade">Ваше сообщение</label></td>
+        <td><textarea name="text" placeholder="Введите ваше сообщение"></textarea></td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            женский<input type="radio" name="gender" value="женский" checked></br>
+            мужской<input type="radio" name="gender" value="мужской">
+        </td>
+    </tr>
+    <tr>
+        <td>Application For</td>
+        <td>
+            танцы <input type="checkbox" name="dance"></br>
+            йога<input type="checkbox" name="ioga" checked></br>
+            басейн<input type="checkbox" name="bas"></br>
+            волейбол<input type="checkbox" name="vol"></br>
+            футбол<input type="checkbox" name="fut">
+        </td>
+    </tr>
+    <tr>
+        <td>Выберите страну</td>
+        <td>
+            <select>
+                <option selected value="0">Select your country</option>
+                <option value="gb">Англия</option>
+                <option value="de">Германия</option>
+                <option value="dk">Дания</option>
+            </select>
+        </td>
+    </tr>
+    <input type="hidden" name="data" value="data">
+    <tr colspan="2">
+        <td><input type="submit" value="Нажми меня"></td>
+    </tr>
+</table>
+</form>
+<form method='post' enctype='multipart/form-data'>
+    Приложите свое резюме
+    <input type="file" name="rezume">
+    <input type="submit">
+</form>
+</body>
+</html>
